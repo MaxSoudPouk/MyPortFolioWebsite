@@ -7,7 +7,7 @@
 .about__img {
     width: 410px;
     border-radius: 1.5rem;
-    justify-content: center;
+    justify-self: center;
 }
 
 .about__info {
@@ -70,12 +70,27 @@
     .about__info {
         justify-content: center;
     }
+
+    .about__description {
+        padding: 0.5rem;
+        margin-bottom: 2rem;
+    }
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 576px) {
+    .about__info {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
-@media screen and (max-width: 576px) {}
+    .about__description {
+        padding: 0;
+    }
+}
 
 /* For small devices */
-@media screen and (max-width: 350px) {}
+@media screen and (max-width: 350px) {
+    .about__info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
