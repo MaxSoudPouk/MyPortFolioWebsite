@@ -4,9 +4,10 @@ import "./services.css";
 function Services() {
   const [toggleState, setToggleState] = useState(0);
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const toggleTab = (index: any) => {
     setToggleState(index);
-  }
+  };
   return (
     <section className="servisces section" id="services">
       <h2 className="section__title">Services</h2>
@@ -21,18 +22,29 @@ function Services() {
             </h3>
           </div>
 
-          <span className="services__button" onClick={() => toggleTab(1)}>View More
-            <i className="uil uil-arrow-right services__button-icon"></i></span>
+          <span className="services__button" onClick={() => toggleTab(1)}>
+            View More
+            <i className="uil uil-arrow-right services__button-icon"></i>
+          </span>
 
-          <div className={toggleState === 1 ? "services__modal active-model" : "services__modal"}>
-            <div className="dervices__modal-content">
-              <i className="uil uil-times"></i>
+          <div
+            className={
+              toggleState === 1
+                ? "services__modal active-model"
+                : "services__modal"
+            }
+          >
+            <div className="services__modal-content">
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times 
+              services__modal-close"
+              ></i>
 
-              <h3 className="services__modal-title">
-                Product Designer
-              </h3>
+              <h3 className="services__modal-title">Product Designer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality work to clients and companies.
+                Service with more than 3 years of experience. Providing quality
+                work to clients and companies.
               </p>
 
               <ul className="services__modal-services grid">
@@ -45,9 +57,7 @@ function Services() {
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Web page development.
-                  </p>
+                  <p className="services__modal-info">Web page development.</p>
                 </li>
 
                 <li className="services__modal-service">
@@ -76,18 +86,28 @@ function Services() {
             </h3>
           </div>
 
-          <span className="services__button">View More
-            <i className="uil uil-arrow-right services__button-icon"></i></span>
+          <span className="services__button" onClick={() => toggleTab(2)}>
+            View More
+            <i className="uil uil-arrow-right services__button-icon"></i>
+          </span>
 
-          <div className="services__modal">
-            <div className="dervices__modal-content">
-              <i className="uil uil-times"></i>
+          <div
+            className={
+              toggleState === 2
+                ? "services__modal active-model"
+                : "services__modal"
+            }
+          >
+            <div className="services__modal-content">
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+              ></i>
 
-              <h3 className="services__modal-title">
-                Ui/Ux Designer
-              </h3>
+              <h3 className="services__modal-title">Ui/Ux Designer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality work to clients and companies.
+                Service with more than 3 years of experience. Providing quality
+                work to clients and companies.
               </p>
 
               <ul className="services__modal-services grid">
@@ -100,9 +120,7 @@ function Services() {
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Web page development.
-                  </p>
+                  <p className="services__modal-info">Web page development.</p>
                 </li>
 
                 <li className="services__modal-service">
@@ -131,18 +149,28 @@ function Services() {
             </h3>
           </div>
 
-          <span className="services__button">View More
-            <i className="uil uil-arrow-right services__button-icon"></i></span>
+          <span className="services__button" onClick={() => toggleTab(3)}>
+            View More
+            <i className="uil uil-arrow-right services__button-icon"></i>
+          </span>
 
-          <div className="services__modal">
-            <div className="dervices__modal-content">
-              <i className="uil uil-times"></i>
+          <div
+            className={
+              toggleState === 3
+                ? "services__modal active-model"
+                : "services__modal"
+            }
+          >
+            <div className="services__modal-content">
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services__modal-close"
+              ></i>
 
-              <h3 className="services__modal-title">
-                Visual Designer
-              </h3>
+              <h3 className="services__modal-title">Visual Designer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality work to clients and companies.
+                Service with more than 3 years of experience. Providing quality
+                work to clients and companies.
               </p>
 
               <ul className="services__modal-services grid">
@@ -155,9 +183,7 @@ function Services() {
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Web page development.
-                  </p>
+                  <p className="services__modal-info">Web page development.</p>
                 </li>
 
                 <li className="services__modal-service">
