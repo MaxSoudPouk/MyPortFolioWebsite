@@ -1,5 +1,5 @@
 import "./home.css";
-import Data from "./Data";
+import Data from "../testmonials/Data";
 import Social from "./Social";
 import ScrollDown from "./ScrollDown";
 
