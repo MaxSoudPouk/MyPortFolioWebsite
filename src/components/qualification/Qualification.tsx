@@ -9,7 +9,7 @@ function Qualification() {
         setToggleState(index);
     };
     return (
-        <section className="quanlification section">
+        <section className="quanlification section" id="portfolio">
             <h2 className="section__title">Qualification</h2>
             <span className="section__subtitle">Mt personel jouryney</span>
 
