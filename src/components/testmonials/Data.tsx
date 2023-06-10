@@ -3,6 +3,7 @@ import Image2 from "../../assets/testimonial2.png"
 import Image3 from "../../assets/testimonial3.png"
 
 
+
 export const Data = [
     {
         id: 1,
@@ -19,7 +20,14 @@ export const Data = [
             "A really good job, all aspects of the project were followed step by step and with good results.",
     },
     {
-        id: 3,
+        id: 1,
+        image: Image3,
+        title: "Sara Cill",
+        description:
+            "A really good job, all aspects of the project were followed step by step and with good results.",
+    },
+    {
+        id: 1,
         image: Image3,
         title: "Sara Cill",
         description:
