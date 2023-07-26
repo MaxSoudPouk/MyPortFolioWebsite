@@ -1,3 +1,9 @@
+// import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
+import { BiLogoJava, BiLogoPython ,BiLogoFirebase} from 'react-icons/bi';
+import { FaNodeJs} from 'react-icons/fa';
+// import { DiJavascript } from 'react-icons/di';
+import { SiMysql, SiSpring } from 'react-icons/si';
+
 function Backend() {
   return (
     <div className="skills__content">
@@ -6,7 +12,7 @@ function Backend() {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <BiLogoJava className="bx bx-badge-check" />
 
             <div>
               <h3 className="skills__name">Java</h3>
@@ -15,7 +21,7 @@ function Backend() {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <FaNodeJs className="bx bx-badge-check" />
 
             <div>
               <h3 className="skills__name">Node Js</h3>
@@ -24,7 +30,7 @@ function Backend() {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <BiLogoPython className="bx bx-badge-check" />
 
             <div>
               <h3 className="skills__name">Python</h3>
@@ -35,7 +41,7 @@ function Backend() {
 
         <div className="skills__group">
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <SiMysql className="bx bx-badge-check" />
 
             <div>
               <h3 className="skills__name">MySQL</h3>
@@ -44,7 +50,7 @@ function Backend() {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <BiLogoFirebase className="bx bx-badge-check" />
 
             <div>
               <h3 className="skills__name">Firebase</h3>
@@ -53,10 +59,10 @@ function Backend() {
           </div>
 
           <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
+            <SiSpring className="bx bx-badge-check"/>
 
             <div>
-              <h3 className="skills__name">SQL</h3>
+              <h3 className="skills__name">SpringBoot</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
