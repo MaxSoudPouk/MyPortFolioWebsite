@@ -35,14 +35,14 @@ function Testimonials() {
         }}
         modules={[Pagination]}
       >
-        {Data.map(({ id, image, title, description }) => {
+        {Data.map((item) => {
           return (
-            <SwiperSlide className="testimonial__card" key={id}>
-              <img src={image} alt=""
+            <SwiperSlide className="testimonial__card" key={item.id}>
+              <img src={item.image} alt="Imge"
                 className="testimonial__img" />
 
-              <h3 className="testimonial__name">{title}</h3>
-              <p className="testimonial__description">{description}</p>
+              <h3 className="testimonial__name">{item.title}</h3>
+              <p className="testimonial__description">{item.description}</p>
             </SwiperSlide>
           )
         })}
