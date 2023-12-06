@@ -1,7 +1,8 @@
 import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
 import { BiLogoCss3, BiLogoReact, BiLogoJava } from 'react-icons/bi';
 import { DiJavascript } from 'react-icons/di';
-import { SiBootstrap } from 'react-icons/si';
+import { BiLogoFlutter } from 'react-icons/bi';
+import { SiDart } from 'react-icons/si';
 
 
 function Frontend() {
@@ -41,19 +42,19 @@ function Frontend() {
 
         <div className="skills__group">
           <div className="skills__data">
-            <SiBootstrap className="bx bx-badge-check" />
+            <BiLogoFlutter className="bx bx-badge-check" />
 
             <div>
-              <h3 className="skills__name">Bootstrap</h3>
+              <h3 className="skills__name">Flutter</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
           <div className="skills__data">
-            <AiFillGithub className="bx bx-badge-check" />
+            <SiDart className="bx bx-badge-check" />
 
             <div>
-              <h3 className="skills__name">Git</h3>
+              <h3 className="skills__name">Dart</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>

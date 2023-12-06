@@ -1,8 +1,9 @@
 // import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
-import { BiLogoJava, BiLogoPython ,BiLogoFirebase} from 'react-icons/bi';
+import { BiLogoJava, BiLogoPostgresql ,BiLogoFirebase} from 'react-icons/bi';
 import { FaNodeJs} from 'react-icons/fa';
 // import { DiJavascript } from 'react-icons/di';
 import { SiMysql, SiSpring } from 'react-icons/si';
+import { FaDocker } from 'react-icons/fa';
 
 function Backend() {
   return (
@@ -30,10 +31,10 @@ function Backend() {
           </div>
 
           <div className="skills__data">
-            <BiLogoPython className="bx bx-badge-check" />
+            <BiLogoPostgresql className="bx bx-badge-check" />
 
             <div>
-              <h3 className="skills__name">Python</h3>
+              <h3 className="skills__name">PostgreSql</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -50,10 +51,10 @@ function Backend() {
           </div>
 
           <div className="skills__data">
-            <BiLogoFirebase className="bx bx-badge-check" />
+            <FaDocker className="bx bx-badge-check" />
 
             <div>
-              <h3 className="skills__name">Firebase</h3>
+              <h3 className="skills__name">Docker</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
