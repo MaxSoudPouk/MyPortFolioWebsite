@@ -1,5 +1,5 @@
-import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
-import { BiLogoCss3, BiLogoReact, BiLogoJava } from 'react-icons/bi';
+import { AiFillHtml5 } from 'react-icons/ai';
+import { BiLogoCss3, BiLogoReact } from 'react-icons/bi';
 import { DiJavascript } from 'react-icons/di';
 import { BiLogoFlutter } from 'react-icons/bi';
 import { SiDart } from 'react-icons/si';

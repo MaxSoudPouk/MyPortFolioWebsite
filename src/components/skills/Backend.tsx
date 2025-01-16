@@ -1,5 +1,5 @@
 // import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
-import { BiLogoJava, BiLogoPostgresql ,BiLogoFirebase} from 'react-icons/bi';
+import { BiLogoJava, BiLogoPostgresql } from 'react-icons/bi';
 import { FaNodeJs} from 'react-icons/fa';
 // import { DiJavascript } from 'react-icons/di';
 import { SiMysql, SiSpring } from 'react-icons/si';
