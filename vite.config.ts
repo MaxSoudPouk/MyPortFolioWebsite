@@ -1,8 +1,12 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
+  plugins: [react()],
+  root: "./",
   build: {
-    outDir: 'dist', // Make sure this matches your Vercel deployment setup
+    outDir: "dist",
   },
+  base: "/MyPortFolioWebsite/",
+  publicDir: "public"
 });
-
