@@ -1,10 +1,4 @@
 {
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/"
-        }
-    ],
     "redirects": [
         { "source": "http://:path*", "destination": "https://:path*", "permanent": true }
     ]
