@@ -1,6 +1,7 @@
 import { AiFillHtml5 } from 'react-icons/ai';
 import { BiLogoCss3, BiLogoReact } from 'react-icons/bi';
-import { DiJavascript } from 'react-icons/di';
+import { SiTailwindcss } from "react-icons/si";
+
 import { BiLogoFlutter } from 'react-icons/bi';
 import { SiDart } from 'react-icons/si';
 
@@ -31,11 +32,11 @@ function Frontend() {
           </div>
 
           <div className="skills__data">
-            <DiJavascript className="bx bx-badge-check"></DiJavascript>
+            <SiTailwindcss className="bx bx-badge-check"/>
 
             <div>
-              <h3 className="skills__name">JavaScript</h3>
-              <span className="skills__level">Intermediate</span>
+              <h3 className="skills__name">Tailwindcss</h3>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
         </div>

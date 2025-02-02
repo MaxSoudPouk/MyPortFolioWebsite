@@ -38,11 +38,11 @@ function Footer() {
                     </a>
 
                     <a
-                        href="https://twitter.com/"
+                        href="https://discord.com/"
                         className="footer__social-link"
                         target="_blank"
                     >
-                        <i className="bx bxl-twitter"></i>
+                        <i className="bx bxl-discord"></i>
                     </a>
                 </div>
 

@@ -13,8 +13,8 @@ import { Pagination } from "swiper";
 function Testimonials() {
   return (
     <section className="testimonial container section">
-      <h2 className="section__title">My clients say</h2>
-      <span className="section__subtitle">Testimonial</span>
+      <h2 className="section__title">Strengths</h2>
+      <span className="section__subtitle">My personal</span>
 
       <Swiper className="testimonial__container"
         loop={true}

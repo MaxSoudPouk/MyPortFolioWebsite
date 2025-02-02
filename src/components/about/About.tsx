@@ -1,6 +1,6 @@
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/Santiphab-Cv.pdf";
+import CV from "../../assets/Santiphab-Cv-v2.pdf";
 import Info from "./Info";
 
 function About() {
@@ -17,9 +17,8 @@ function About() {
             <Info />
 
             <p className="about__description">
-              Frontend developer, I create web pages with UI / UX user
-              interface, I have years of experience and many clients are happy
-              with the projects carried out.
+            I'm a backend developer with more then 2 years of experience in building APIs and optimizing backend systems. 
+            I focus on delivering efficient and reliable solutions to meet client needs.
             </p>
 
             <a download="" href={CV} className="button button--flex">

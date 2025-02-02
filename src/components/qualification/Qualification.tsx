@@ -157,7 +157,7 @@ function Qualification() {
               </div>
 
               <div>
-                <h3 className="qualification__title">Back End(Rest API)</h3>
+                <h3 className="qualification__title">Back End Dev</h3>
                 <span className="qualification__subtitle">
                   ETL COMPANY LIMITED
                 </span>
@@ -174,13 +174,31 @@ function Qualification() {
                 <span className="qualification__subtitle">KOLAO GROUP</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"> </i>
-                  2023/03 -present
+                  2023/03 - 2023/12
                 </div>
               </div>
 
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Back End Dev</h3>
+                <span className="qualification__subtitle">KOLAO GROUP</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"> </i>
+                  2023/12 - present
+                </div>
               </div>
             </div>
           </div>
